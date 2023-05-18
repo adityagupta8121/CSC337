@@ -1,0 +1,54 @@
+<!--
+Aditya Gupta
+CSC 337 PA8
+
+index.html
+Assignment 8 - Chatty
+Implementation of a chatting application
+
+index.html is the HTML implementation of the same,
+as required in the spec, style.css is called to
+make it look good, and functions are all stored in
+script.js
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+  
+    <head>
+        <meta charset = UTF-8>
+        <title>Chatty Web App</title>
+        <link rel = "stylesheet"
+            type = "text/css"
+            href = "style.css">
+        <script src = "script.js"></script>  
+    </head>
+    
+    <body>
+    
+        <div class = "chatField" id = "chatField">
+        </div>
+
+        <div id = "chatEnter">
+
+            <div class = "aliasArea">
+                <label for = "alias">Alias </label>
+                <input type = "text" id = "alias">
+                <br>
+            </div>
+
+            <div class = "textArea">
+                <label for = "chatMessage">Message </label>
+                <input  id = "chatMessage">
+            </div>
+
+            <div class = "buttonArea">
+                <input type = "submit" onclick = "send();" value = "Send Message" id = "sendButt">
+                <br>
+            </div> 
+
+        </div>
+
+    </body>
+
+</html>

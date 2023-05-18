@@ -1,0 +1,80 @@
+/*
+Aditya Gupta
+CSC 337 PA5
+
+style.css
+Assignment 5 - Welcome to the Jumble
+This assignment aims to implement and showcase
+Caesar Cipher and Square Cipher implementation
+of the text the user inputs.
+
+style.css is a style sheet for index.html
+which implements Jumble and Cipher algorithms
+based on the assignment-spec sheet.
+*/
+
+.leftSet{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 16%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(72, 72, 72);
+    padding-top: 2%;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#sliderNo{
+    font-weight: bolder;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding-top: 2%;
+}
+
+table, th, td{
+    border: 2px solid orangered;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 9px;
+}
+
+.Czar{
+    background-color: green;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: 50%;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 300%;
+}
+
+.square{
+    background-color: cadetblue;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 50%;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 300%;
+}

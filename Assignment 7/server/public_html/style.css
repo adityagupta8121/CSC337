@@ -1,0 +1,80 @@
+/*
+Aditya Gupta
+CSC 337 PA7
+
+index.html
+Assignment 7 - Translator
+Provides various translations from/to
+english, german and spanish.
+
+style.css is a style sheet for index.html
+*/
+body{
+    margin: 0;
+    background-color: rgb(188, 187, 187);
+}
+
+#heading{
+    position: fixed;
+    background-color: rgb(255, 200, 0);
+    border-bottom: 2px solid black;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+#inputDiv{
+    position: fixed;
+    border: 2px solid black;
+    top: 25%;
+    left: 0%;
+    height: 74%;
+    width: 50%;
+    text-align: center;
+}
+
+#inputOption{
+    position: fixed;
+    margin-top: 1%;
+    left: 22%;
+    font-size: 30px;
+}
+
+#inputContent{
+    position: fixed;
+    left: 13%;
+    bottom: 15%;
+    height: 30%;
+    width: 25%;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#outputDiv{
+    position: fixed;
+    border: 2px solid black;
+    top: 25%;
+    right: 0%;
+    height: 74%;
+    width: 50%;
+    text-align: center;
+}
+
+#outputOption{
+    position: fixed;
+    margin-top: 1%;
+    right: 22%;
+    font-size: 30px;
+}
+
+#outputContent{
+    position: fixed;
+    right: 13%;
+    bottom: 15%;
+    height: 30%;
+    width: 25%;
+    font-weight: 500;
+    font-size: 30px;
+}

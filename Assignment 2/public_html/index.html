@@ -1,0 +1,80 @@
+<!--
+Aditya Gupta
+CSC 337 PA2
+
+index.html
+Homepage for Toyota Motor Corporation's page
+It gives a short description of what and how Toyota emerged as a brand. 
+Talks about Toyota, car models, and Lexus.
+Uses CSS styling from style.css
+
+The file meets PA2 requirements.
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        <title>Toyota | TMC</title>
+        <link rel="stylesheet"
+            type="text/css"
+            href="css/style.css">
+    </head>
+
+    <body>
+        <div class = "intro">
+            <img src="img/toyotaLogo.jpeg"
+                id = "toyotalogo"
+                alt="ToyotaLogo"
+                width="350"
+                height="100">
+            <h1>Toyota | Toyota Motor Corporation</h1>
+        </div>
+
+        <div class = "options">
+            <a id = "link1" class = "links" href = "./index.html">Toyota</a>
+            <a id = "link2" class = "links" href = "./lexus.html">Lexus</a>
+        </div>
+
+        <div class = "main">
+            <img src="img/toyotaFleet.jpeg"
+                id = "fleetimg"
+                alt="fleet"
+                width="500"
+                height="300">
+
+            <p id = "p1">
+                <b><i>Toyota Motor Corporation</i></b> is a Japanese multinational automotive manufacturer headquartered in Toyota City, Aichi, Japan. 
+                    It was founded by Kiichiro Toyoda and incorporated on August 28, 1937. 
+                    Toyota is one of the largest automobile manufacturers in the world, producing about 10 million vehicles per year.
+            </p>
+            <p id = "p2">
+                Toyota is world-famous as the manufacturer of high-quality, high-value cars, vans and trucks that set the standard for 
+                long-term resale value and durability. 
+            </p>
+
+            <table>
+                <tr>
+                    <th>Best-Selling</th>
+                    <th>WHY?</th>
+                    <th>Worst-Selling</th>    
+                    <th>WHY?</th>
+                </tr>
+                <tr>
+                    <td>Corolla</td>
+                    <td>...because it's a Corolla!</td>
+                    <td>CH-R</td>
+                    <td>Crappy drivetrain when compared to rivals</td>
+                </tr>
+                <tr>
+                    <td>Rav-4</td>
+                    <td>Best of all the worlds</td>
+                    <td>Venza</td>
+                    <td>Is it a mini-van? crossover? SUV?</td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,60 @@
+<!--
+Aditya Gupta
+CSC 337 PA10
+
+post.html
+Assignment 10 - Ostaa pt 2
+Implementation of a marketplace app
+
+post.html is the HTML implementation of the same,
+the add post page implementation
+as required in the spec, style.css is called to
+make it look good, and functions are all stored in
+script.js
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset = UTF-8>
+        <title>Ostaa</title>
+        <link rel = "stylesheet"
+            type = "text/css"
+            href = "style.css">
+        <script src = "script.js"></script>  
+    </head>
+
+    <body>
+        <div class="main">
+            <h1> Ostaa </h1>
+            <h2> Add a Post</h2>
+
+            <label for = "title">Title </label>
+            <input type = "text" id = "title">
+            <br><br>
+
+            <label for = "desc">Desc </label>
+            <input type = "text" id = "desc">
+            <br><br>
+
+            <label for = "price">Price </label>
+            <input type = "text" id = "price">
+            <br><br>
+
+            <label for = "stat">Status </label>
+            <input type = "text" id = "stat">
+            <br><br>
+
+            <label for = "image">Image </label>
+            <input type = "text" id = "image">
+            <br><br>
+
+            <label for = "username2">Username </label>
+            <input type = "text" id = "username2">
+            <br><br>
+
+            <input type = "button" id = "addItem" onclick = "addItems(), window.location.href = 'home.html';" value = "Create Post"/>
+        </div>
+    </body>
+</html>

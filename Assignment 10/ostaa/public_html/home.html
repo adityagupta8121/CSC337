@@ -1,0 +1,59 @@
+<!--
+Aditya Gupta
+CSC 337 PA10
+
+home.html
+Assignment 10 - Ostaa pt 2
+Implementation of a marketplace app
+
+home.html is the HTML implementation of the same,
+the home page implementation
+as required in the spec, style.css is called to
+make it look good, and functions are all stored in
+script.js
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset = UTF-8>
+        <title>Ostaa</title>
+        <link rel = "stylesheet"
+            type = "text/css"
+            href = "style.css">
+        <script src = "script.js"></script>  
+    </head>
+
+    <body>
+
+        <div class = "main">
+
+            <div id = "left" class = "left">
+                <h1>Ostaa</h1>
+                <h2>Welcome! What would you like to do?</h2>
+                <br>
+                <br>
+                
+                <input type = "text" id = "squery">
+                <button onclick = "search();" >Search Listings</button>
+                <br>
+                <br>
+                <button onclick = "viewLists();">View your Listings</button>
+                <br>
+                <br>
+                <button onclick = "viewPurch();" >View your Purchases</button>
+                <br>
+                <br>
+                <button onclick = "window.location.href='post.html';">Create a Listing</button>
+                <br>
+                <br>
+            </div>
+
+            <div id = "right" class = "right">
+            </div>
+
+        </div>
+
+    </body>
+</html>

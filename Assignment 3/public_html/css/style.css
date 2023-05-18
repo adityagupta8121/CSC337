@@ -1,0 +1,135 @@
+/*
+Aditya Gupta
+CSC 337 PA3
+
+style.css
+Style sheet for index.html, which is a
+sign up sheet for the Supra owners club
+
+It tried to meet PA3 requirements, and have
+tried to integrate all the mandatory stuff as mentioned
+in the assignment-spec sheet.
+*/
+#main{
+    background-color: rgb(1, 120, 78);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+    color: rgb(33, 21, 112);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#toyota, #GR, #trd, #logo{
+    position: static;
+    padding-left: 30px;
+}
+
+#toyota, #GR{
+    margin-left: 20px;
+}
+
+#trd, #logo{
+    margin-right: 20px;
+}
+
+#Supra2, #Supra1{
+    border-radius: 10px;
+    position: static;
+    border: 5px solid black;
+    border-width: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    padding: 1px;
+    height: 30%;
+    width: 30%;
+}
+h2{
+    color: black;
+    text-decoration: underline solid black 5px;
+}
+#formMain{
+    background-color: rgb(139, 32, 0);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: auto;
+}
+
+p{
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+#lessInfo{
+    color: rgba(255, 255, 255, 0.619);
+}
+
+label{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 25px;
+    text-align: left;
+    position: absolute;
+}
+
+input, textarea{
+    color: rgba(222, 184, 135, 0.875);
+    background-color: black;
+    margin-left: 40%;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+span{
+    text-align: justify;
+    color: rgba(222, 184, 135, 0.875);
+    background-color: black;
+    margin-left: 10px;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    border-width: 5px;
+
+}
+
+#submit, #reset{
+    margin-left: 25px;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+#toyota{
+    width: 25%;
+    height: 25%;
+}
+
+#GR{
+    width: 15%;
+    height: 15%; 
+}
+
+#trd{
+    width: 10%;
+    height: 10%;
+}
+
+#logo{
+    width: 20%;
+    height: 20%
+}
+
+#Supra1, #Supra2{
+    width: 20%;
+    height: 20%
+}

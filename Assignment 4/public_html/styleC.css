@@ -1,0 +1,103 @@
+/*
+Aditya Gupta
+CSC 337 PA4
+
+styleC.css
+Style sheet C for index.html,
+which is a page for PriceCo.
+
+Tries to meet the requirements
+for StyleC as per PA4 spec.
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background-color: aqua;
+    overflow-y: none;
+    text-align: justify;
+}
+
+a{
+    display: block;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+}
+
+.styleButton{
+    margin: 0%;
+    position: fixed;
+	width: 5vw;
+	bottom: 1%;
+    left: 1vw;
+    background-color: black;
+    opacity: 0.7;
+	color: #FFF;
+	border-radius: 5px;
+	text-align: center;
+    vertical-align: middle;
+	box-shadow: 2px 2px 3px rgb(14, 0, 0);
+    padding: 7px;   
+}
+
+#styleB{
+    left: 9vw;
+}
+
+#styleC{
+    left: 17vw;
+}
+
+#header{
+    float: left;
+    background-color: rgb(0, 60, 255);
+    text-align: center;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    width: 300px;
+    height: 225px;
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+}
+
+#pricecoLogo{
+    position: static;
+    top: 175px;
+    left: 175px;
+}
+
+
+h1{
+    margin-top: 0;
+    color: yellow;
+    font-size : 50px;
+    margin-bottom: 1%;
+}
+
+#navigation{
+    float: right;
+    background-color: rgb(0, 157, 255);
+    text-align: right;
+    width: 270px;
+    height: 195px;
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#content{
+    text-align: center;
+    position: relative;
+    max-width: fit-content;
+}

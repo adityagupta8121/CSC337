@@ -1,0 +1,72 @@
+<!--
+Aditya Gupta
+CSC 337 PA5
+
+index.html
+Assignment 5 - Welcome to the Jumble
+This assignment aims to implement and showcase
+Caesar Cipher and Square Cipher implementation
+of the text the user inputs.
+
+index.html is the HTML implementation of the same,
+as required in the spec, style.css is called to
+make it look good, and functions are all stored in
+function.js
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        <meta charset = UTF-8>
+        <title>Jumble</title>
+        <link rel="stylesheet"
+            type="text/css"
+            href="style.css">
+        <script src="function.js"></script>  
+    </head>
+
+    <body onload = "SSquare()">
+
+        <div class = "leftSet">
+
+            <h1>
+                Welcome to the Jumble!
+            </h1>
+    
+            <input type = "text" id = "Itext" placeholder = "Enter text here!" 
+                    oninput = "cZar(), showText()">
+            
+            <div class = "sliderContainer">
+                <br>
+                <span id = "sliderNo">0</span>
+                <input type = "range" class = "slider" id = "myRange"
+                        min = "0" 
+                        max = "26"
+                        value = "0"
+                        oninput = "updateSliderVal(this.value), cZar(), showText(), retain();"
+                        onchange = "updateSliderVal(this.value), cZar(), retain();">
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button id = "submit" onclick = "butClick(), showText(), retain();">Update Square</button>
+            <br>
+            <br>
+            <table id = "square">
+            </table>
+        </div>
+
+        <div class = "Czar">
+            <p id = "CText">
+            </p>
+        </div>
+
+        <div class = "square">
+            <p id = "sqText">
+            </p>    
+        </div>
+
+    </body>
+</html>

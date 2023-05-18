@@ -1,0 +1,65 @@
+<!--
+Aditya Gupta
+CSC 337 PA10
+
+index.html
+Assignment 10 - Ostaa pt 2
+Implementation of a marketplace app
+
+index.html is the HTML implementation of the same,
+the login page implementation
+as required in the spec, style.css is called to
+make it look good, and functions are all stored in
+script.js
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset = UTF-8>
+        <title>Ostaa</title>
+        <link rel = "stylesheet"
+            type = "text/css"
+            href = "style.css">
+        <script src = "script.js"></script>  
+    </head>
+
+    <body>
+        <div class = "main">
+            <h1> Ostaa </h1>
+
+            <div>
+                <h1> Login to your account </h1>
+
+                <label for = "username">Username </label>
+                <input type = "text" id = "username">
+                <br><br>
+
+                <label for = "password">Password </label>
+                <input type = "password" id = "password">
+                <br><br>
+
+                <button onclick = "login();">Login</button>
+                <br><br>
+            </div>
+
+            <div>
+                <h1> Create an account </h1>
+
+                <label for = "usernameNew">Username </label>
+                <input type = "text" id = "usernameNew">
+                <br><br>
+
+                <label for = "passwordNew">Password </label>
+                <input type = "password" id = "passwordNew">
+                <br><br>
+
+                <button onclick="create();" >Create an Account</button>
+                <br><br>
+            </div>
+            
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!--
+Aditya Gupta
+CSC 337 PA9
+
+index.html
+Assignment 9 - Ostaa
+Implementation of a marketplace app
+
+index.html is the HTML implementation of the same,
+as required in the spec, style.css is called to
+make it look good, and functions are all stored in
+script.js
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset = UTF-8>
+        <title>Ostaa</title>
+        <link rel = "stylesheet"
+            type = "text/css"
+            href = "style.css">
+        <script src = "script.js"></script>  
+    </head>
+
+    <body>
+        <h1>Add User</h1>
+        <label for = "username1">Username</label>
+        <input type = "text" id = "username1">
+        <br>
+
+        <label for = "password">Password</label>
+        <input type = "password" id = "password">
+        <br>
+
+        <input type = "button" id = "addUser" value = "Add User" onclick = "addUser();">
+        <br>
+        <br>
+
+        <h1>Add Item</h1>
+        <label for = "title">Title</label>
+        <input type = "text" id = "title">
+        <br>
+
+        <label for = "desc">Desc</label>
+        <input type = "text" id = "desc">
+        <br>
+
+        <label for = "image">Image</label>
+        <input type = "text" id = "image">
+        <br>
+
+        <label for = "price">Price</label>
+        <input type = "text" id = "price">
+        <br>
+
+        <label for = "stat">Status</label>
+        <input type = "text" id = "stat">
+        <br>
+
+        <label for = "username2">Username</label>
+        <input type = "text" id = "username2">
+        <br>
+
+        <input type = "button" id = "addItem" value = "Add Item" onclick = "addItem();">
+    </body>
+</html>

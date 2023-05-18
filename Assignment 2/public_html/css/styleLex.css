@@ -1,0 +1,139 @@
+/*
+Aditya Gupta
+CSC 337 PA2
+
+styleLex.css
+Styling for Homepage for Lexus | Toyota Motor Corporation's page
+which is lexus.html
+
+The file tries to fulfill PA2 requirements.
+*/
+body {
+    background-color: #FFFDD0;
+    margin: 0;
+}
+.intro {
+    background-color: #36454F;
+    border: solid 1px;
+    padding: 30px;
+}
+
+#lexuslogo {
+    border-radius: 5px;
+    position: absolute;
+    border: solid;
+    border-width: 0.2px;
+    border-color: rgba(0, 0, 0, 0.499);
+}
+
+h1 {
+    margin-right: 10%;
+    text-align: right;
+    font-size: xx-large;
+    font-family: 'Lucida Grande';
+    font-weight: bolder;
+    color: chocolate;
+}
+
+.options {
+    background-color: silver ;
+    border: solid transparent;
+    padding: 20px;
+    text-align: center;
+}
+
+#link1 {
+    float: none;
+    position: static;
+    margin-left: 20px;
+    margin-right: 30px;
+    color: darkblue;
+    font-size: x-large;
+    background-color: crimson;
+    padding: 4px;
+    font-family: Geneva;
+    text-decoration: double underline rgb(49, 7, 7) 5px;
+
+}
+
+#link2 {
+    float: none;
+    position: static;
+    color: #704241;
+    font-size: 35px;
+    padding: 5px;
+    margin-right: 20px;
+    font-family: monospace;
+    text-decoration: underline wavy black 2px;
+    border: 10px;
+}
+
+.main {
+    background-color: #2f4f4f;
+    padding: 2px;
+    text-align: center;
+}
+
+#fleetimg {
+    border-radius: 10px;
+    position: static;
+    border: 7px dashed #560319;
+    border-width: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45%;
+    width: 45%;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#p1 {
+    font-weight: 1000;
+    font-size:x-large;
+    color: #F3E5AB;
+    font-family: system-ui;
+}
+
+#p2 {
+    text-align: justify;
+    font-variant: normal;
+    color: #FCF5E5;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+table, th, td {
+    margin: auto;
+    border: 1px solid #1a1110;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color:#560319;
+    margin: auto;
+    padding: 15px;
+    border-style: 15px dashed black;
+    border-color: #0a252a;
+    border-width: 10px;
+    font-family: 'Arial Narrow Bold';
+    font-weight: bolder;
+    color: #F0EAD6;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: #483c32;
+    margin: auto;
+    padding: 15px;
+    border-style: 10px dashed black;
+    border-color: #32174d;
+    border-width: 10px;
+    font: medium;
+    font-family: 'Gill Sans';
+    color: white;
+}
